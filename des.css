@@ -8,20 +8,32 @@ body {
 
 h1 {
   font-size: 2em;
+  padding-bottom: 10px;
 }
 
 .hero {
+  border-radius: 25px solid;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   margin: 10em auto;
   padding: 3em 0;
-  width: 400px;
+  width: 800px;
+  height: 600px;
+  border-radius: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
 }
 
-input {
+ input {
   font-size: 1.2em;
   margin: 8px 0;
+  height: 45px;
+  width: 350px;
+  border-radius: 25px;
+ 
 }
 
 input::-webkit-input-placeholder {
@@ -39,4 +51,12 @@ input::-ms-input-placeholder {
 input::placeholder {
   padding: 0 .3em;
 }
+
+button{
+  height: 45px;
+  width: 350px;
+  border: none;
+  border-radius: 25%;
+}
+
 /*# sourceMappingURL=main.css.map */
